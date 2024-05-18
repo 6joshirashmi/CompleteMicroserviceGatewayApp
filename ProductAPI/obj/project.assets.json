@@ -4561,11 +4561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day2\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
+      "projectUniqueName": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
       "projectName": "ProductAPI",
-      "projectPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day2\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
+      "projectPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
       "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-      "outputPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day2\\CompleteMicroserviceGatewayApp\\ProductAPI\\obj\\",
+      "outputPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",

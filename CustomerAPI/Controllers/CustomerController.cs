@@ -11,16 +11,21 @@ namespace CustomerAPI.Controllers
     [Route("api/[controller]")]
     public class CustomerController : ControllerBase
     {
-        [HttpGet("GetProductList")]
+        [HttpGet("GetCustomerList")]
         public ActionResult GetCustomer()
         {
-            return Ok("1");
-        }
-        [HttpPost("SaveProduct")]
-        public ActionResult SaveCustomer(CustomerModel customerModel)
-        { customerModel.CustomerName="ram";
-        customerModel.Id=1;
+            List<CustomerModel> customerModel = new List<CustomerModel> {
+           new CustomerModel{ CustomerName = "ram",
+            Id = 1},
+         new CustomerModel{ CustomerName = "sita",
+            Id = 2}
+             };
             return Ok(customerModel);
+        }
+        [HttpPost("SaveCustomer")]
+        public ActionResult SaveCustomer(CustomerModel customerModel)
+        {
+            return Ok("1");
         }
     }
 }

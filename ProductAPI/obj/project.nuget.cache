@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kHDTdJbsqODVZibPnF47MFzh69rQ7afPGch7oKYUJgfCPJbA7PvxW3kiyBDxpQaHmnLnsZYa5vcgVSYQ2Dqjng==",
+  "dgSpecHash": "Ci08R3BPYZmrFVL3wkJY+1OKXp6+9tNTkzPMeA4tWQNORoANGKLS1mmMm1TIXytGvdFzm0JT8ZSYt9b7FiiW7g==",
   "success": true,
-  "projectFilePath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day2\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
+  "projectFilePath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abc\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\abc\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -2,9 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\CommunicationAPIGateWay",
+    "\\CommunicationAPIGateWay\\Properties",
     "\\CustomerAPI",
+    "\\CustomerAPI\\Controllers",
+    "\\CustomerAPI\\Properties",
     "\\ProductAPI"
   ],
-  "SelectedNode": "\\MicroserviceApp.sln",
+  "SelectedNode": "\\CustomerAPI\\Controllers\\CustomerController.cs",
   "PreviewInSolutionExplorer": false
 }
