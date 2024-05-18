@@ -1,0 +1,6 @@
+@CommunicationAPIGateWay_HostAddress = http://localhost:5016
+
+GET {{CommunicationAPIGateWay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

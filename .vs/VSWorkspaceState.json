@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CommunicationAPIGateWay",
+    "\\CustomerAPI",
+    "\\ProductAPI"
+  ],
+  "SelectedNode": "\\MicroserviceApp.sln",
+  "PreviewInSolutionExplorer": false
+}

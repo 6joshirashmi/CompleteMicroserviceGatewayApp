@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yMUNonXAeGGUsDXGWwMOoH8B9nOsxDIZ0vDtp/FgEsI=",
+  "Source": "CommunicationAPIGateWay",
+  "BasePath": "_content/CommunicationAPIGateWay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

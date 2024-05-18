@@ -1,0 +1,32 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Customer/{any}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5001
+                    }
+                ],
+            "UpstreamPathTemplate": "/api/customerservice/{any}",
+            "UpstreamHttpMethod": [ "put","Delete","Get","Post" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/api/Product/{any}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                    {
+                        "Host": "localhost",
+                        "Port": 5002
+                    }
+                ],
+            "UpstreamPathTemplate": "/api/productservice/{any}",
+            "UpstreamHttpMethod": ["put","Delete","Get","Post"]
+        }
+        
+    ],
+    "GlobalConfiguration": {
+      "BaseUrl":"http://localhost:7000" }
+}
