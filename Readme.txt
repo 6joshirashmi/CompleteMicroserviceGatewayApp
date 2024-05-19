@@ -17,4 +17,11 @@ need to configure RabbitMQ server, KAFKA server for microservices communicaition
 http://localhost:5001/api/Product/GetProductList
 http://localhost:5001/api/Product/SaveProduct
 
+19/05/2024
 
+containerize these 2 api and gateway on docker
+
+aggregation model
+association model
+composition model ( docker compose) facade pattern (control panel is a best example)
+composition model of all services 
