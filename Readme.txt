@@ -25,3 +25,19 @@ aggregation model
 association model
 composition model ( docker compose) facade pattern (control panel is a best example)
 composition model of all services 
+
+finaly all the services are configured with api services so that end user can access the service 
+from apigetway which provide base address communicate to the all the services.
+
+docker-compose /kube ctl is a tool to configure all the service yaml file
+
+ConnectionFactory class 
+
+customerapi...docker...sql
+productapi...docker...sql
+
+for messaging between multiple services we have taken services library..
+
+
+
+

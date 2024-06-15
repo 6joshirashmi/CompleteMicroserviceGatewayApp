@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PRADEEP\\StudyMaterial\\Knowledge\\Docker\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj": {}
+    "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj": {}
   },
   "projects": {
-    "E:\\PRADEEP\\StudyMaterial\\Knowledge\\Docker\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj": {
+    "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PRADEEP\\StudyMaterial\\Knowledge\\Docker\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj",
+        "projectUniqueName": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj",
         "projectName": "ServiceCommunication",
-        "projectPath": "E:\\PRADEEP\\StudyMaterial\\Knowledge\\Docker\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj",
-        "packagesPath": "C:\\Users\\pradeep.kumar4\\.nuget\\packages\\",
-        "outputPath": "E:\\PRADEEP\\StudyMaterial\\Knowledge\\Docker\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\obj\\",
+        "projectPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\ServiceCommunication.csproj",
+        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+        "outputPath": "C:\\Developer\\#microservices\\!!Microservices-2024\\Day3\\CompleteMicroserviceGatewayApp\\ServiceCommunication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\pradeep.kumar4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

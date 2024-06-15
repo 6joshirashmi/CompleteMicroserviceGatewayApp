@@ -11,4 +11,21 @@ services:
     ports:
       - 7000:7000
 
+  CustomerAPI:
+    image: customerapigateway
+    build:
+      context: .
+      dockerfile: CustomerAPI/Dockerfile
+    ports:
+      - 5001:5001   
+
+  ProductAPI:
+    image: projectapigateway
+    build:
+      context: .
+      dockerfile: ProductAPI/Dockerfile
+    ports:
+      - 5002:5002   
+
+
 
